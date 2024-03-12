@@ -212,8 +212,8 @@ const InvoiceForm = ({
                         type='textarea'
                         placeholder='Create a nnote for your client' />
                 </p>
+                <p className='invoice__label'>Add items to table</p>
                 <p className='inputTab'>
-                    <p>Add items to table</p>
                     <input
                         className='formItem__input serial'
                         id='itemSerial'
