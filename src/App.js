@@ -1,6 +1,5 @@
 import { useState, useRef } from 'react'
 import InvoiceForm from "../src/components/InvoiceForm";
-import Header from "../src/components/invoicePreview/Header"
 import SenderDetails from '../src/components/invoicePreview/SenderDetails'
 import ClientDetails from '../src/components/invoicePreview/ClientDetails'
 import InvoiceDetails from '../src/components/invoicePreview/InvoiceDetails'

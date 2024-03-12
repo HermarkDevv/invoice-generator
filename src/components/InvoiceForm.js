@@ -63,7 +63,7 @@ const InvoiceForm = ({
     // Call calculateTotal when necessary (e.g., in a useEffect)
     useEffect(() => {
         calculateTotal();
-    }, [rows]);
+    });
 
     const handleAddItem = (e) => {
         e.preventDefault()
@@ -268,7 +268,7 @@ const InvoiceForm = ({
                             <td>{description}</td>
                             <td>{quantity}</td>
                             <td>{price}</td>
-                            <td>{amount}</td>
+                            <td className='amount'>{amount}</td>
                             <button onClick={() => deleteRow(id)} className='faTrashCan'>
                                 <FontAwesomeIcon className='faTrashCan' icon={faTrashCan} />
                             </button>
