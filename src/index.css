@@ -366,13 +366,23 @@ form {
   margin-top: 1rem;
 }
 
+table,
+td,
+th {
+  border: 2px solid black;
+}
+
+table {
+  border-collapse: collapse;
+}
+
 .table__head {
   background-color: #0000FE;
   color: white;
 }
 
 .displayListItemBody {
-  background-color: #f1f1f1;
+  background-color: hsla(240, 89%, 72%, 0.216);
 }
 
 .displayListItemBody:nth-child(even) {

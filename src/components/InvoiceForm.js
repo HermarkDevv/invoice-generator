@@ -220,7 +220,7 @@ const InvoiceForm = ({
                         name='itemSerial'
                         value={serial}
                         onChange={(e) => setSerial(e.target.value)}
-                        type='text'
+                        type='number'
                         placeholder='S/N' />
                     <input
                         className='formItem__input Description'
@@ -244,7 +244,7 @@ const InvoiceForm = ({
                         name='price'
                         value={price}
                         onChange={(e) => setPrice(e.target.value)}
-                        type='text' placeholder='Price' />
+                        type='number' placeholder='Price' />
                     <p>{amount}</p>
                 </p>
                 <button onClick={handleAddItem} className='btn addItem'>
